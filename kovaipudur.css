@@ -72,7 +72,7 @@ main {
 }
 .leads li a {
   font-size: 24px;
-  padding: 50px;
+  padding: 13px;
   color: #fff;
   width: 100%;
   text-decoration: none;
@@ -106,22 +106,43 @@ dialog::backdrop {
   margin-bottom: 0;
   padding-left: 0;
 }
-.more-details a.google-location {
-  display: block;
-  color: #8E0E00;
-  padding: 0;
-  margin: 10px auto;
-  text-decoration: underline;
-  cursor: pointer;
-}
+
 .more-details button {
   cursor: pointer;
   padding: 10px;
   border: none;
+  background-color: darkblue;
+  color: white;
+  margin-top: 15px;
+}
+.more-details menu button {
+  background-color: darkgray;
+  color: black;
 }
 .more-details button :hover {
   color: aqua;
 }
 .more-details p {
   font-size: 20px;
+}
+.disclaimer h2 {
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 5%;
+}
+.disclaimer h3 {
+  text-align: left;
+  text-decoration: underline;
+  margin-left: 5%;
+}
+.disclaimer p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+lklk{
+  background-color: darkblue;
 }
