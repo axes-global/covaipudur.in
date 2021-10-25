@@ -41,6 +41,12 @@ main {
   align-items: center;
 
 }
+.page-title {
+  margin-bottom: 0;
+}
+.sub-nav {
+  margin-bottom: 0.67em;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -149,4 +155,7 @@ dialog::backdrop {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
+}
+.proposals-section {
+  text-align: left;
 }
