@@ -159,3 +159,15 @@ dialog::backdrop {
 .proposals-section {
   text-align: left;
 }
+.faqs {
+  text-align: left;
+}
+.faqs dt {
+  margin-bottom: 10px;
+}
+.faqs dd {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .faqs { width: 740px; }
+}
